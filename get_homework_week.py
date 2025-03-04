@@ -46,7 +46,7 @@ events = get_week_events_from_url(url)
 print("This weeks homework:")
 for event in events:
 	print(f" * {event.name}")
-	print(f"  - {construct_url(event.url)}")
+	print(f"   Link: {construct_url(event.url)}")
 
 # write to markdown file
 
