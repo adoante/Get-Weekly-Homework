@@ -1,11 +1,8 @@
 ## Usage
 
-Install requirements if you have too.
-Update ICAL url in python file.
-
-```bash
-python ./get_homework_week.py
-```
+1. Install requirements if you have too: `pip install -r .\requirements.txt`
+3. Update ICAL url in python file.
+4. Run: `python .\get_homework_week.py`
 
 ## To do
 - [ ] Work on terminal print formatting
